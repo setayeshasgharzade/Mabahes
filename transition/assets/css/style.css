@@ -1,0 +1,20 @@
+        .main{
+            width:869px;
+            height:102px;
+            border: dashed #b8b7b7;
+            border-radius: 12px;
+            padding : 10px;
+            display: flex;
+            gap:13px
+        }
+        .section{
+              flex:1;
+             background: #ffa07a;
+             border-radius: 12px;
+             transition: flex 0.4s ease-in-out;
+             &:active{
+                flex:2;
+                background: #7b68ee;
+                width: 500px;
+             }
+        }
